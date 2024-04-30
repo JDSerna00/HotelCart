@@ -1,0 +1,15 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery img{
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
