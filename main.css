@@ -1,7 +1,15 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: beige;
+    background-color: rgb(21, 7, 32);
 }
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #b470d3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
 
 #gallery{
     display: flex;
@@ -24,9 +32,13 @@ button{
   display: block;
   margin-top: 10px;
   padding: 5px 10px;
-  background-color: #002c6e;
+  background-color: #0043a7;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
+
+button:hover {
+    background-color: #003166;
+  }
