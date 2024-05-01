@@ -23,3 +23,10 @@ function updateCartDisplay() {
       cartItemsElement.appendChild(li);
     });
   }
+  function checkout() {
+    let totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
+    let recipe = `Total: $${totalPrice}\n\nItems:\n`;
+    cart.forEach(item => {
+      recipe += `${item.name} - $${item.price}\n`;
+    });
+  }
