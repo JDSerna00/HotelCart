@@ -40,7 +40,7 @@ function updateCartDisplay() {
 
     printRecipe();
     const message = encodeURIComponent(recipe);
-  const whatsappNumber = '3243707220';
+  const whatsappNumber = '573243707220';
   const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
 
   window.open(url, '_blank');
