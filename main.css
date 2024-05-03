@@ -44,6 +44,20 @@ h2{
     width: calc(40% - 2px);
 }
 
+.item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 100px;
+}
+
+.item p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
 #cart {
     border: 5px solid #5e5e5e;
     padding: 1px;
